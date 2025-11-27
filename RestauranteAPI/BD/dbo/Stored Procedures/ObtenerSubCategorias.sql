@@ -14,7 +14,7 @@ BEGIN
 	SET NOCOUNT ON;
 
     -- Insert statements for procedure here
-	SELECT        SubCategorias.Nombre AS SubCategoria, Categorias.Nombre AS Categoria, SubCategorias.Id
+	SELECT        SubCategorias.Nombre AS Nombre, Categorias.Nombre AS Categoria, SubCategorias.Id
 FROM            Categorias INNER JOIN
                          SubCategorias ON Categorias.Id = SubCategorias.IdCategoria
 END
