@@ -69,5 +69,10 @@
     <Build Include="dbo\Stored Procedures\EliminarProducto.sql" />
     <Build Include="dbo\Stored Procedures\EditarProducto.sql" />
     <Build Include="dbo\Stored Procedures\AgregarProducto.sql" />
+    <Build Include="dbo\Stored Procedures\AgregarSubCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerSubCategorias.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerSubCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\EliminarSubCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\EditarSubCategoria.sql" />
   </ItemGroup>
 </Project>

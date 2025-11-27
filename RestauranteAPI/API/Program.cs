@@ -20,6 +20,9 @@ builder.Services.AddScoped<IProductoFlujo, ProductoFlujo>();
 builder.Services.AddScoped<IProductoDA, ProductoDA>();
 builder.Services.AddScoped<IRepositorioDapper, RepositorioDapper>();
 
+builder.Services.AddScoped<ISubCategoriaDA, SubCategoriaDA>();
+builder.Services.AddScoped<ISubCategoriaFlujo, SubCategoriaFlujo>();
+
 
 
 
