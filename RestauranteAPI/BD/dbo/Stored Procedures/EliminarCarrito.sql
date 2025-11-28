@@ -1,0 +1,15 @@
+﻿CREATE PROCEDURE [dbo].[EliminarCarrito]
+    @Id UNIQUEIDENTIFIER
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRANSACTION;
+
+    DELETE FROM [dbo].[Carrito]
+    WHERE Id = @Id;
+
+    SELECT @Id;
+
+    COMMIT TRANSACTION;
+END;

@@ -74,5 +74,23 @@
     <Build Include="dbo\Stored Procedures\ObtenerSubCategoria.sql" />
     <Build Include="dbo\Stored Procedures\EliminarSubCategoria.sql" />
     <Build Include="dbo\Stored Procedures\EditarSubCategoria.sql" />
+    <Build Include="dbo\Tables\FacturaDetalle.sql" />
+    <Build Include="dbo\Tables\Factura.sql" />
+    <Build Include="dbo\Tables\Cuenta.sql" />
+    <Build Include="dbo\Tables\Carrito.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCuentas.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCuenta.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCarritos.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCarritoPorCuenta.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCarritoPorCedula.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCarrito.sql" />
+    <Build Include="dbo\Stored Procedures\LimpiarCarritoPorCuenta.sql" />
+    <Build Include="dbo\Stored Procedures\EliminarCarrito.sql" />
+    <Build Include="dbo\Stored Procedures\EditarCarrito.sql" />
+    <Build Include="dbo\Stored Procedures\CerrarCuenta.sql" />
+    <Build Include="dbo\Stored Procedures\AgregarFacturaDetalle.sql" />
+    <Build Include="dbo\Stored Procedures\AgregarFactura.sql" />
+    <Build Include="dbo\Stored Procedures\AgregarCarrito.sql" />
+    <Build Include="dbo\Stored Procedures\AbrirCuenta.sql" />
   </ItemGroup>
 </Project>

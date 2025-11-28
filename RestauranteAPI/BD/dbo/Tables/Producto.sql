@@ -6,7 +6,6 @@
     [Precio]         DECIMAL (18, 2)  NOT NULL,
     [Stock]          INT              NOT NULL,
     [CodigoBarras]   VARCHAR (MAX)    NOT NULL,
-    CONSTRAINT [PK_Producto] PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FK_Producto_SubCategorias] FOREIGN KEY ([IdSubCategoria]) REFERENCES [dbo].[SubCategorias] ([Id])
+    CONSTRAINT [PK_Producto] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 

@@ -1,10 +1,4 @@
-﻿
--- =============================================
--- Author:		Author,,Name
--- Create date: Create Date,,
--- Description:	Description,,
--- =============================================
-CREATE PROCEDURE [dbo].[EditarProducto]
+﻿CREATE PROCEDURE [dbo].[EditarProducto]
 	-- Add the parameters for the stored procedure here
 @Id AS uniqueidentifier
            ,@IdSubCategoria AS uniqueidentifier

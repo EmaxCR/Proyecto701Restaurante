@@ -1,10 +1,4 @@
-﻿
--- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE [dbo].[ObtenerProductos] 
+﻿CREATE PROCEDURE [dbo].[ObtenerProductos] 
 	-- Add the parameters for the stored procedure here
 	
 AS

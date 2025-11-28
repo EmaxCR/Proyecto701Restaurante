@@ -1,9 +1,4 @@
-﻿-- =============================================
--- Author:		Author,,Name
--- Create date: Create Date,,
--- Description:	Description,,
--- =============================================
-CREATE PROCEDURE ObtenerSubCategorias
+﻿CREATE PROCEDURE ObtenerSubCategorias
 	-- Add the parameters for the stored procedure here
 	 
 

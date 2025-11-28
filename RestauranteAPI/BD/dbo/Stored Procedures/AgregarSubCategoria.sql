@@ -1,9 +1,4 @@
-﻿-- =============================================
--- Author:		<Author,,Name>
--- Create date: <Create Date,,>
--- Description:	<Description,,>
--- =============================================
-CREATE PROCEDURE AgregarSubCategoria
+﻿CREATE PROCEDURE AgregarSubCategoria
 	-- Add the parameters for the stored procedure here
 	  @Id AS uniqueidentifier
  ,@IdCategoria AS uniqueidentifier

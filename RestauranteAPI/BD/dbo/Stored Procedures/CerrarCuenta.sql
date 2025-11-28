@@ -1,0 +1,16 @@
+﻿CREATE PROCEDURE [dbo].[CerrarCuenta]
+    @Id UNIQUEIDENTIFIER
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    BEGIN TRANSACTION;
+
+    UPDATE Cuenta
+    SET Estado = 'Cerrada'
+    WHERE Id = @Id;
+
+    SELECT @Id;
+
+    COMMIT TRANSACTION;
+END
