@@ -23,6 +23,10 @@ builder.Services.AddScoped<IRepositorioDapper, RepositorioDapper>();
 builder.Services.AddScoped<ISubCategoriaDA, SubCategoriaDA>();
 builder.Services.AddScoped<ISubCategoriaFlujo, SubCategoriaFlujo>();
 
+builder.Services.AddScoped<ICategoriaDA, CategoriaDA>();
+builder.Services.AddScoped<ICategoriaFlujo, CategoriaFlujo>();
+
+
 builder.Services.AddScoped<ICarritoFlujo, CarritoFlujo>();
 builder.Services.AddScoped<ICarritoDA, CarritoDA>();
 

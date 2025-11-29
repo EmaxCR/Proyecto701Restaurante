@@ -92,5 +92,10 @@
     <Build Include="dbo\Stored Procedures\AgregarFactura.sql" />
     <Build Include="dbo\Stored Procedures\AgregarCarrito.sql" />
     <Build Include="dbo\Stored Procedures\AbrirCuenta.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCategorias.sql" />
+    <Build Include="dbo\Stored Procedures\ObtenerCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\EliminarCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\EditarCategoria.sql" />
+    <Build Include="dbo\Stored Procedures\AgregarCategoria.sql" />
   </ItemGroup>
 </Project>
